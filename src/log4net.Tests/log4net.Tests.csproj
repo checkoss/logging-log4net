@@ -77,7 +77,7 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)'=='netcoreapp2.1'">
-    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="6.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.0" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)'=='netcoreapp3.1'">
